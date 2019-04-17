@@ -1,0 +1,15 @@
+{
+  "name": "a5project/test-project",
+  "description": "A simple test project.",
+  "license": "MIT",
+  "type": "project",
+  "require-dev": {
+    "phpunit/phpunit": "^5.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "TestProject\\": "src"
+    }
+  },
+  "minimum-stability": "stable"
+}
